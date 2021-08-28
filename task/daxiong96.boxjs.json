@@ -44,6 +44,54 @@
         "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"
      ],
             "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js"
+    },
+    {
+            "id": "zzsyX",
+            "name": "招招",
+            "keys": ["zzsyhd","zzsybody", "zzsyhd2","zzsybody2","zzsyhd3","zzsybody3","zzsyhd4","zzsybody4","zzsyhd5","zzsybody5","zzsyhd6","zzsybody6","zzsyhd7","zzsybody7","zzsyhd8","zzsybody8","zzsyhd9","zzsybody9","zzsyhd10","zzsybody10"],
+            "author": "@feizao",
+            "settings": [{
+            "id": "zzsystatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前账号对应"
+    },
+    {
+            "id": "zzsycount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "需要几个账号，数字为几"
+    }],
+            "repo": "https://github.com/age174/-/blob/main/zzsy.js",
+            "icons": ["https://ae01.alicdn.com/kf/Ub0056a0721e94c9a85a8bbeb2f2aed6fn.jpg", "https://ae01.alicdn.com/kf/Ub0056a0721e94c9a85a8bbeb2f2aed6fn.jpg"],
+            "script": "https://raw.githubusercontent.com/age174/-/main/zzsy.js"
+    } ,
+    {
+            "id": "yqzhX",
+            "name": "悦趣赚",
+            "keys": ["yqzh"],
+            "author": "@feizao",
+            "descs_html": [
+              "每轮任务跑之前请手动阅读鉴权一次。。否则当天就黑了，如果不小心没鉴权就跑了脚本可以等一个小时后再次鉴权（两次鉴权失败会黑一天）"
+            ],
+            "settings": [{
+                    "id": "yqzhNotice",
+                    "val": "",
+                    "name": "是否通知",
+                    "type": "boolean",
+                    "desc": "开启该选项时，脚本执行完会发通知，否则只打印日志"
+            }, {
+                    "id": "yqzhConcurrency",
+                    "val": "1",
+                    "name": "并发执行账号数",
+                    "type": "text",
+                    "desc": "默认单账号跑任务，指定大于1的数值时，将并发执行多个账号的任务，请勿设置过大，避免NE工具崩溃（太大估计会崩溃吧）"
+            }],
+            "repo": "https://github.com/age174/-/blob/main/yqzh.js",
+            "icons": ["https://ae01.alicdn.com/kf/U428ddcb68e304bc0822743cad88f5142n.jpg", "https://ae01.alicdn.com/kf/U428ddcb68e304bc0822743cad88f5142n.jpg"],
+            "script": "https://raw.githubusercontent.com/age174/-/main/yqzh.js"
     }
   ]
 }
