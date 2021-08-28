@@ -1,0 +1,252 @@
+{
+  "id": "linxiaozhu.app.sub",
+  "name": "林小猪 应用订阅",
+  "author": "@Daxiong9",
+  "icon": "https://avatars.githubusercontent.com/u/80189983?s=400&u=56637efc5214ffa2846f9a1f7e090fe2a27d37be&v=4",
+  "repo": "https://github.com/Daxiong96",
+  "apps": [{
+            "id": "youthCkX",
+            "name": "中青数据",
+            "keys": ["youthheader_zq","read_zq","readtime_zq",
+            "youthheader_zq2","read_zq2","readtime_zq2",
+            "youthheader_zq3","read_zq3","readtime_zq3",
+            "youthheader_zq4","read_zq4","readtime_zq4",
+            "youthheader_zq5","read_zq5","readtime_zq5",
+            "youthheader_zq6","read_zq7","readtime_zq7",
+            "youthheader_zq8","read_zq8","readtime_zq8",
+            "youthheader_zq9","read_zq9","readtime_zq9",
+            "youthheader_zq10","read_zq10","readtime_zq10"],
+            "author": "@ztxtop",
+            "settings": [{
+            "id": "ckFormat",
+            "val": "",
+            "name": "新CK格式",
+            "type": "boolean",
+            "desc": "数据是否按新格式存储"
+    } ,
+    {
+            "id": "zqSuffix",
+            "name": "抓包账号",
+            "val": "1",
+            "type": "number",
+            "desc": "指定抓取的数据包用于哪个账号，设置数值如：1、2、3..."
+    },
+    {
+            "id": "zqExecAc",
+            "name": "中青执行账号",
+            "val": "1",
+            "type": "text",
+            "desc": "设置中青的执行账号，多个账号用半角逗号分隔，如：1,2,4"
+    }],
+            "repo": "https://github.com/ztxtop/x/blob/main/youth.js",
+            "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"
+     ],
+            "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js"
+    } ,
+    {
+      "id": "youthBannerX",
+      "name": "中青看看赚",
+      "descs_html": [
+        "⚠️：带有android字眼的会话数据是抓安卓设备的app数据包的，只用ios的话，无视它的存在吧"
+      ],
+      "keys": ["youth_banner",
+      "youth_banner2",
+      "youth_banner3", 
+      "youth_banner4",
+      "youth_banner5",
+      "youth_banner6",
+      "youth_banner7", 
+      "youth_banner8",
+      "youth_banner9", 
+      "youth_banner10"],
+      "author": "@ztxtop",
+      "settings": [{
+        "id": "delErrorData",
+        "name": "移除当日失败两次+的任务数据",
+        "val": "0",
+        "type": "radios",
+        "items": [{
+            "key": "0",
+            "label": "不移除"
+          },
+          {
+            "key": "1",
+            "label": "移除"
+          }
+        ]
+      }],
+      "repo": "https://github.com/ztxtop/x/blob/main/youth_banner.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
+      "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
+    },
+    {
+      "author": "@sunert", 
+      "keys": [
+        "youth_autoread", 
+        "autotime_zq", 
+        "youth_autoread2", 
+        "autotime_zq2",
+        "youth_autoread3", 
+        "autotime_zq3", 
+        "youth_autoread4", 
+        "autotime_zq4", 
+        "youth_autoread5", 
+        "autotime_zq5", 
+        "youth_autoread6", 
+        "autotime_zq6", 
+        "youth_autoread7", 
+        "autotime_zq7", 
+        "youth_autoread8", 
+        "autotime_zq8", 
+        "youth_autoread9", 
+        "autotime_zq9", 
+        "youth_autoread10", 
+        "autotime_zq10", 
+      ], 
+      "settings": [
+      {
+          "id": "youth_cutX", 
+          "val": false, 
+          "name": "缩减请求", 
+          "type": "boolean", 
+          "desc": "自动删除收益为0或者错误的阅读请求，使用完后请立即关闭，避免清空阅读请求"
+        },{
+            "id": "zzsystatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前账号对应"
+    },
+    {
+            "id": "zzsycount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "需要几个账号，数字为几"
+    }
+      ],
+      "repo": "https://github.com/Sunert/Script/blob/master/Task/Youth_Read.js", 
+      "id": "youthRead", 
+      "script": "https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js", 
+      "name": "Sunert中青自动阅读", 
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png", 
+        "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
+      ]
+    }, 
+    {
+            "id": "zzsyX",
+            "name": "招招",
+            "keys": ["zzsyhd","zzsybody", "zzsyhd2","zzsybody2","zzsyhd3","zzsybody3","zzsyhd4","zzsybody4","zzsyhd5","zzsybody5","zzsyhd6","zzsybody6","zzsyhd7","zzsybody7","zzsyhd8","zzsybody8","zzsyhd9","zzsybody9","zzsyhd10","zzsybody10"],
+            "author": "@feizao",
+            "settings": [{
+            "id": "zzsystatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前账号对应"
+    },
+    {
+            "id": "zzsycount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "需要几个账号，数字为几"
+    }],
+            "repo": "https://github.com/age174/-/blob/main/zzsy.js",
+            "icons": ["https://ae01.alicdn.com/kf/Ub0056a0721e94c9a85a8bbeb2f2aed6fn.jpg", "https://ae01.alicdn.com/kf/Ub0056a0721e94c9a85a8bbeb2f2aed6fn.jpg"],
+            "script": "https://raw.githubusercontent.com/age174/-/main/zzsy.js"
+    } ,
+    {
+            "id": "yqzhX",
+            "name": "悦趣赚",
+            "keys": ["yqzh"],
+            "author": "@feizao",
+            "descs_html": [
+              "每轮任务跑之前请手动阅读鉴权一次。。否则当天就黑了，如果不小心没鉴权就跑了脚本可以等一个小时后再次鉴权（两次鉴权失败会黑一天）"
+            ],
+            "settings": [{
+                    "id": "yqzhNotice",
+                    "val": "",
+                    "name": "是否通知",
+                    "type": "boolean",
+                    "desc": "开启该选项时，脚本执行完会发通知，否则只打印日志"
+            }, {
+                    "id": "yqzhConcurrency",
+                    "val": "1",
+                    "name": "并发执行账号数",
+                    "type": "text",
+                    "desc": "默认单账号跑任务，指定大于1的数值时，将并发执行多个账号的任务，请勿设置过大，避免NE工具崩溃（太大估计会崩溃吧）"
+            }],
+            "repo": "https://github.com/age174/-/blob/main/yqzh.js",
+            "icons": ["https://ae01.alicdn.com/kf/U428ddcb68e304bc0822743cad88f5142n.jpg", "https://ae01.alicdn.com/kf/U428ddcb68e304bc0822743cad88f5142n.jpg"],
+            "script": "https://raw.githubusercontent.com/age174/-/main/yqzh.js"
+    } ,
+    {
+      "author": "@sunert", 
+      "keys": [
+        "baidu_nick",
+        "bdspeed",
+        "cash_baidu"
+      ], 
+      "repo": "https://github.com/Sunert/Script/blob/master/Task/baiduspeed.js", 
+      "id": "baidu_speedX", 
+      "script": "https://raw.githubusercontent.com/Sunert/Script/master/Task/baiduspeed.js", 
+      "settings": [
+        {
+          "items": [
+            {
+              "key": "5", 
+              "label": "5元"
+            }, 
+            {
+              "key": "30", 
+              "label": "30元"
+            }, 
+            {
+              "key": "50", 
+              "label": "50元"
+            }, 
+            {
+              "key": "100", 
+              "label": "100元"
+            }
+          ], 
+          "id": "cash_baidu", 
+          "val": "30", 
+          "name": "提现金额", 
+          "type": "radios", 
+          "desc": "自动提现金额"
+        }, 
+        {
+          "id": "on_baidu", 
+          "val": true, 
+          "name": "通知开关", 
+          "type": "boolean", 
+          "desc": "任务通知开关"
+        },
+        {
+          "id": "task_baidu", 
+          "val": true, 
+          "name": "任务开关", 
+          "type": "boolean", 
+          "desc": "除提现和兑换金币外开关，默认开启所有任务"
+        },
+        {
+          "id": "bd_Agent", 
+          "val": true, 
+          "name": "User-Agent", 
+          "type": "textarea", 
+          "desc": "自定义百度极速版UA或者可自动获取"
+        }
+      ], 
+      "name": "百度极速任务", 
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/Sunert/Profiles@master/QuantumultX/Rules/Images/icon/baiduspeed_mini.png", 
+        "https://cdn.jsdelivr.net/gh/Sunert/Profiles@master/QuantumultX/Rules/Images/icon/baiduspeed.png"
+      ]
+    }
+  ]
+}
