@@ -126,35 +126,35 @@
       ]
     },
     {
-            "id": "youthCkX",
-            "keys": ["youthheader_zq","read_zq","readtime_zq",
-            "youthheader_zq2","read_zq2","readtime_zq2",
-            "youthheader_zq3","read_zq3","readtime_zq3",
-            "youthheader_zq4","read_zq4","readtime_zq4"],
-            "author": "@ztxtop",
-            "settings": [{
-            "id": "ckFormat",
-            "val": "",
-            "name": "新CK格式",
-            "type": "boolean",
-            "desc": "数据是否按新格式存储"
+      "id": "youthCkX",
+      "keys": ["youthheader_zq","read_zq","readtime_zq",
+      "youthheader_zq2","read_zq2","readtime_zq2",
+      "youthheader_zq3","read_zq3","readtime_zq3",
+      "youthheader_zq4","read_zq4","readtime_zq4"],
+      "author": "@ztxtop",
+      "settings": [{
+      "id": "ckFormat",
+      "val": "",
+      "name": "新CK格式",
+      "type": "boolean",
+      "desc": "数据是否按新格式存储"
     } ,
     {
-            "id": "zqSuffix",
-            "name": "抓包账号",
-            "val": "1",
-            "type": "number",
-            "desc": "指定抓取的数据包用于哪个账号，设置数值如：1、2、3..."
+      "id": "zqSuffix",
+      "name": "抓包账号",
+      "val": "1",
+      "type": "number",
+      "desc": "指定抓取的数据包用于哪个账号，设置数值如：1、2、3..."
     },
     {
-            "id": "zqExecAc",
-            "name": "ztxtop中青执行账号",
-            "val": "1",
-            "type": "text",
-            "desc": "设置中青的执行账号，多个账号用半角逗号分隔，如：1,2,4"
+      "id": "zqExecAc",
+      "name": "ztxtop中青执行账号",
+      "val": "1",
+      "type": "text",
+      "desc": "设置中青的执行账号，多个账号用半角逗号分隔，如：1,2,4"
     }],
-            "repo": "https://github.com/ztxtop/x/blob/main/youth.js",
-            "icons": [
+      "repo": "https://github.com/ztxtop/x/blob/main/youth.js",
+      "icons": [
         "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png",
         "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"
      ],
