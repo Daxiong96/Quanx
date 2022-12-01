@@ -2,7 +2,7 @@ hostname = kd.youth.cn, ios.baertt.com
 
 https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList url script-request-header https://raw.githubusercontent.com/Daxiong96/autosyncs/Sunert/Task/youth.js
 
-https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json url script-request-header https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js
+https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json url script-request-header https://raw.githubusercontent.com/Daxiong96/autosyncs/Sunert/Task/youth.js
 
 https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json url script-request-body https://raw.githubusercontent.com/Daxiong96/autosyncs/Sunert/Task/youth.js
 
